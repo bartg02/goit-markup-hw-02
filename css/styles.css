@@ -94,6 +94,11 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
     }
+
+   .contact-list{
+    list-style-type: none;
+    color: #757575;
+   }
 .logo {   
     margin-right: 93px;
     margin-left: 215px;
@@ -102,7 +107,6 @@ letter-spacing: 0.02em;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    text-decoration: none;
     text-decoration: none
 }
 .logo-part-blue {
@@ -124,6 +128,7 @@ top: 24px;}
 .navigation-list {
     display: flex;
     align-items: center;
+    list-style-type: none;
 }
 
 .navigation-list {
@@ -171,9 +176,52 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 }*/
+.filter-item1,
+.filter-item2,
+.filter-item3,
+.filter-item4,
+.filter-item5
+{
+    
+position: absolute;
+width: 49px;
+height: 26px;
+top: 180px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: #212121;
+}
+
+
+.filter-item1{
+    left: 532px;
+}
+.filter-item2{
+    left:661px;
+}
+
+.filter-item3{
+    left: 762px;
+}
+
+.filter-item4{
+    left: 884px;
+}
+
+.filter-item5{
+    left: 983px;
+}
 
 .contact-mail
-
 {
     position: absolute;
     width: 53px;
@@ -196,7 +244,7 @@ text-decoration: none;
 {
     position: absolute;
     width: 110px;
-    height: 16px;
+    size: 14px;
     left: 1263px;
     top: 32px;
     
@@ -238,9 +286,9 @@ background: #2F303A;
 .hero-header-title {
     position: absolute;
     width: 696px;
-    height: 120px;
+    size: 44px;
     left: 452px;
-    top: 280px;
+    top: 200px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -261,7 +309,7 @@ background: #2F303A;
 width: 200px;
 height: 50px;
 left: 700px;
-top: 430px;
+top: 400px;
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -270,6 +318,7 @@ border-radius: 4px;
 
 .hero-header-btn-title {
     color: white;
+    
 }
 
 .main-description-title1
@@ -278,7 +327,6 @@ border-radius: 4px;
 ,.main-description-title4
 {
     position: absolute;
-width: 270px;
 height: 16px;
 
 top: 774px;
@@ -338,7 +386,7 @@ left: 215px}
    
 position: absolute;
 width: 1600px;
-height: 648px;
+
 left: 0px;
 top: 1449px;
 
@@ -348,7 +396,6 @@ background: #F5F4FA;
  .team-header{
     position: absolute;
 width: 300px;
-height: 42px;
 left: 695px;
 top: 94px;
 
@@ -369,14 +416,13 @@ color: #212121;
  .team-item4{
 position: absolute;
 width: 270px;
-height: 368px;
-
+list-style-type: none;
 top: 186px;
 
 background: #FFFFFF;
 /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
  }
  .team-item1{
@@ -401,7 +447,7 @@ border-radius: 0px 0px 4px 4px;
    
 position: absolute;
 width: 270px;
-height: 260px;
+
 
 
 background: url(4853.jpg);
@@ -422,7 +468,7 @@ border-radius: 0px;
 .main-what-we-do-list-image3 {
     position: absolute;
     width: 370px;
-    height: 294px;
+
    
     top: 1061px;
     
@@ -445,7 +491,6 @@ border-radius: 0px;
 .main-what-we-do-header{
     position: absolute;
     width: 352px;
-    height: 42px;
     left: 600px;
     top: 969px;
 
@@ -465,7 +510,6 @@ color: #212121;
 .team-personal {
     position: absolute;
     width: 72px;
-    height: 19px;
     left: 99px;
     top: 290px;
     
@@ -510,7 +554,7 @@ color: #212121;
 .logo-footer{
     position: absolute;
     width: 145px;
-    height: 31px;
+    
     left: 215px;
     top:60px;
     
@@ -531,7 +575,7 @@ color: #212121;
 .address-link-lokalization {
     position: absolute;
     width: 246px;
-    height: 21px;
+   
     left: 215px;
     top: 111px;
     
@@ -550,7 +594,7 @@ color: #212121;
 .address-link-phone {
     position: absolute;
 width: 231px;
-height: 21px;
+
 left: 215px;
 
 
@@ -582,7 +626,33 @@ top: 171px}
 /* MAIN */
 /* SECTION FILTER */
 /* THE TEXT CONTENT OF THE BUTTONS */
+.header-container{
+    position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+border: 1px solid #ECECEC;
+background: #FFFFFF;
+}
 
+.logo-container{
+    
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+}
 .filter-button {
     font-weight: 500;
     font-size: 16px;
@@ -591,12 +661,13 @@ top: 171px}
     letter-spacing: 0,03em;
 }
 /* BODY BUTTON */
-
+.filter-list{
+    list-style-type: none
+}
 .filter-button {
-    background: #f5f4fa;
+    background: #F5F4FA;
     border-radius: 4px;
 }
-
 .filter-button:focus {
     color: #ffffff;
     background-color: var(--main-color);
@@ -618,4 +689,121 @@ top: 171px}
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.projects-list{
+    list-style-type: none;
+
+}
+
+
+
+.projects-list-project1 {
+    position: absolute;
+    width: 370px;
+    
+    left: 215px;
+    top: 262px;
+    
+    background: url(portfolio1.jpg);
+}
+.projects-list-project2{
+
+    position: absolute;
+    width: 370px;
+    
+    left: 615px;
+    top: 262px;
+    
+    background: url(portfolio2.jpg);
+}
+.projects-list-project3{
+    position: absolute;
+    width: 370px;
+   
+    left: 1015px;
+    top: 262px;
+    
+    background: url(portfolio-1.jpg);
+}
+.projects-list-project4{
+    position: absolute;
+    width: 370px;
+    
+    left: 215px;
+    top: 696px;
+    
+    background: url(portfolio-2.jpg);
+}
+.projects-list-project5{
+    position: absolute;
+    width: 370px;
+   
+    left: 615px;
+    top: 696px;
+    
+    background: url(portfolio5.jpg);
+}
+.projects-list-project6{
+    position: absolute;
+    width: 370px;
+  
+    left: 1015px;
+    top: 696px;
+    
+    background: url(111.jpg);
+}
+.projects-list-project7
+{
+    position: absolute;
+    width: 370px;
+   
+    left: 215px;
+    top: 1130px;
+    
+    background: url(portfolio7.jpg);
+}
+.projects-list-project8{
+    position: absolute;
+    width: 370px;
+ 
+    left: 615px;
+    top: 1130px;
+    
+    background: url(portfolio8.jpg);
+}
+.projects-list-project9 {
+    position: absolute;
+    width: 370px;
+  
+    left: 1015px;
+    top: 1130px;
+    
+    background: url(2910404.jpg);
+}
+
+.footerportfolio{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    
+    background: #2F303A;
+}
+
+.logoportfolio{
+    position: absolute;
+width: 145px;
+left: 215px;
+top: 60px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+text-decoration: none;
+letter-spacing: 0.03em;
 }
