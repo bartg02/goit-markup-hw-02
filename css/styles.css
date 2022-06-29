@@ -184,7 +184,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-
+line-height: 162%;
 /* identical to box height, or 162% */
 
 text-align: center;
@@ -286,7 +286,7 @@ background: #2F303A;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    
+    line-height: 136%;
     /* or 136% */
     
     text-align: center;
@@ -357,7 +357,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-
+line-height: 171%;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -569,7 +569,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    
+    line-height: 171%;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -588,7 +588,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-
+line-height: 171%;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -661,11 +661,11 @@ letter-spacing: 0.03em;
 /* END SECTION FILTER */
 /* SECTION PROJECTS */
 
-.project-header {
+.project-header{
     font-weight: bold;
     font-size: 18px;
-   
     letter-spacing: 0.06em;
+    line-height: 200%;  
 }
 .project-category-webpage,
 .project-category-app,
@@ -682,7 +682,10 @@ letter-spacing: 0.03em;
 
 }
 
-
+.project-img{
+    width: 370px;
+height: 294px;
+}
 
 .projects-list-project1 {
     position: absolute;
@@ -793,3 +796,4 @@ font-size: 26px;
 text-decoration: none;
 letter-spacing: 0.03em;
 }
+
